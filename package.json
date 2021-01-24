@@ -1,0 +1,25 @@
+{
+  "name": "node-wa-sticker-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@open-wa/wa-automate": "^2.0.26",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "libphonenumber-js": "^1.7.56",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.10.0",
+    "qs": "^6.9.4",
+    "video-url-link": "^0.1.4"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
